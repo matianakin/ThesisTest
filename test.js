@@ -47,9 +47,7 @@ function radioChange() {
 }
 function changeClass() {
     var dropdown = document.getElementById("dropdown");
-    var p = document.getElementById("test")
-    p.className = dropdown.value;
-    p.class = dropdown.value;
+    dropdown.className = dropdown.value;
 }
 
 function updateTable() {
