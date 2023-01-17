@@ -1,7 +1,6 @@
 function copyText() {
     var inputText = document.getElementById("inputText").value;
     document.getElementById("outputText").value = inputText;
-    document.getElementById("outputText").setAttribute("readonly", "true");
 }
 
 function enableButton() {
