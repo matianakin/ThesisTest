@@ -55,9 +55,9 @@ function updateTable() {
     var checkbox = document.getElementById("myCheck");
     var table = document.getElementById("status");
     if (checkbox.checked) {
-      table.hidden = true;
-    } else {
       table.hidden = false;
+    } else {
+      table.hidden = true;
     }
 }
 
