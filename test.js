@@ -17,6 +17,7 @@ function newStyle() {
 function radioChange() {
   var radio1 = document.getElementById("radio1");
   var radio2 = document.getElementById("radio2");
+  var radio3 = document.getElementById("radio3");
   var img = document.getElementById("img");
   var btn = document.getElementById("notYet");
   var input = document.getElementById("inputText");
