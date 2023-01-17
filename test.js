@@ -60,4 +60,9 @@ function updateTable() {
     } else {
       table.innerHTML = "Not Checked";
     }
+}
+
+function displayText() {
+    var input = document.getElementById("input").value;
+    document.getElementById("output").innerHTML = input;
   }
