@@ -62,6 +62,6 @@ function updateTable() {
 }
 
 function displayText() {
-    var input = document.getElementById("input").value;
-    document.getElementById("output").innerHTML = input;
+    var input = document.getElementById("input2")
+    input.disabled=true;
   }
