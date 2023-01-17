@@ -51,3 +51,13 @@ function changeClass() {
     text.className = dropdown.value;
     text.innerHTML = dropdown.value + " selected";
 }
+
+function updateTable() {
+    var checkbox = document.getElementById("myCheck");
+    var table = document.getElementById("status");
+    if (checkbox.checked) {
+      table.innerHTML = "Checked";
+    } else {
+      table.innerHTML = "Not Checked";
+    }
+  }
