@@ -53,7 +53,7 @@ function changeClass() {
 
 function updateTable() {
     var checkbox = document.getElementById("myCheck");
-    var table = document.getElementById("status");
+    var table = document.getElementById("myTable");
     if (checkbox.checked) {
       table.hidden = false;
     } else {
