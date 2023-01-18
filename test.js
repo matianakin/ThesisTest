@@ -72,5 +72,5 @@ function displayText() {
 
 function deleter()
 {
-    document.getElementById("ThisFirst").remove();
+    document.getElementById("thisFirst").remove();
 }
