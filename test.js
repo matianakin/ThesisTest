@@ -49,6 +49,7 @@ function radioChange() {
 }
 function changeClass() {
     var dropdown = document.getElementById("dropdown");
+    var toDelete = document.getElementById("butVal");
     dropdown.className = dropdown.value;
 }
 
@@ -68,3 +69,8 @@ function displayText() {
     // var form = document.getElementById("thisForm");
     // form.disabled=true;
   }
+
+function deleter()
+{
+    document.getElementById("ThisFirst").remove();
+}
