@@ -1,8 +1,8 @@
 function copyText() {
     var inputText = document.getElementById("inputText").value;
     var but = document.getElementById("butVal");
-    document.getElementById("outputText").value = inputText;
     but.value=inputText;
+    but.innerHTML=inputText;
 }
 
 function enableButton() {
